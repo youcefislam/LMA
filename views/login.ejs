@@ -1,0 +1,8 @@
+<%- include("_header") %> 
+<h1>Log in</h1>
+<form action="/login" method="post">
+    <input type="text" class="form-control" name="username" placeholder="Username" required autofocus>
+    <input type="password" class="form-control" name="password" placeholder="Password" required>
+    <input type="submit" value="Log in" class="btn btn-primary btn-block">
+</form>
+<%- include("_footer") %> 
